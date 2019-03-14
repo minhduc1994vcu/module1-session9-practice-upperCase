@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function isFirstLetterUpperCase(str1) {
+        let regex1 = /^[A-Z]/;
+        if (regexp.test(str1)) {
+            console.log(true);
+        } else {
+            console.log(false);
+        }
+    }
+
+    isFirstLetterUpperCase('askjfds'); //false
+    function allLetterUpperCase(str2) {
+        let regex2 = /^[A-Z\s]+$/;
+        console.log(regex2.test(str2))
+    }
+
+    allLetterUpperCase('NGUYEN VAN NAM'); //true
+</script>
+</body>
+</html>
